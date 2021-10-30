@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+
+    <!--Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <!--CUSTOOM CSS-->
+    <link href="../css/normalize.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="header">
+        <a href="../index.html">
+            <img class="header__logo" src="../img/LogoLibreria.png" alt="Logo libreria cristiana"/>
+        </a>
+
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Sobre Nosotros</h1> 
+
+        <div class="nosotros">
+
+            <div class="nosotros__contenido">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis facere accusantium quo dicta sunt ratione hic
+                    dolorum quaerat placeat. Aliquid saepe odio nulla, nostrum eum laboriosam? Commodi unde maxime omnis.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi maiores minus adipisci corrupti necessitatibus, modi
+                    blanditiis cupiditate rem ipsum quaerat exercitationem totam labore tempore dolorem vero similique? Voluptatibus,
+                    laboriosam totam.
+                </p>
+
+            </div>
+            
+            <img class="nosotros__img" src="./img/NosotrosBiblias.png" alt="">
+        </div>
+
+    </main>
+
+    <section class="contenedor comprar">
+        <h2 class="comprar__titulo">¿Por qué comprar con nosotros?</h2>
+
+        <div class="bloques">
+            <div class="bloque">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cash" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="9" width="14" height="10" rx="2" />
+                    <circle cx="14" cy="14" r="2" />
+                    <path d="M17 9v-2a2 2 0 0 0 -2 -2h-10a2 2 0 0 0 -2 2v6a2 2 0 0 0 2 2h2" />
+                </svg>
+                <h3 class="bloque__titutlo">El mejor precio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div> <!--.bloque-->
+            <div class="bloque">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <polyline points="7 8 3 12 7 16" />
+                    <polyline points="17 8 21 12 17 16" />
+                    <line x1="14" y1="4" x2="10" y2="20" />
+                </svg>
+                <h3 class="bloque__titutlo">Para Todos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div> <!--.bloque-->
+            <div class="bloque">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                  </svg>
+                <h3 class="bloque__titutlo">La mejor calidad</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div> <!--.bloque-->
+            <div class="bloque">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bus" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="6" cy="17" r="2" />
+                    <circle cx="18" cy="17" r="2" />
+                    <path d="M4 17h-2v-11a1 1 0 0 1 1 -1h14a5 7 0 0 1 5 7v5h-2m-4 0h-8" />
+                    <polyline points="16 5 17.5 12 22 12" />
+                    <line x1="2" y1="10" x2="17" y2="10" />
+                    <line x1="7" y1="5" x2="7" y2="10" />
+                    <line x1="12" y1="5" x2="12" y2="10" />
+                  </svg>
+                <h3 class="bloque__titutlo">Envio Gratis</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div> <!--.bloque-->
+        </div> <!--.bloques-->
+
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto"> FrontEnd Store -- Todos los derechos son reservados 2022.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+
+    <!--Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <!--CUSTOOM CSS-->
+    <link href="../css/normalize.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="header">
+        <a href="../index.html">
+            <img class="header__logo" src="../img/LogoLibreria.png" alt="Logo libreria cristiana"/>
+        </a>
+
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace " href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Biblia Plenitud</h1>
+        
+        <div class="biblia">
+            <img class="biblia__img" src="./img/plenitudBiblia.jpg" alt="Biblia Plenitud">
+            <div class="biblia__contenido">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque similique fugiat, incidunt laboriosam ea quasi numquam
+                    dolorem optio, inventore voluptatibus veniam a nam ullam pariatur unde excepturi aspernatur! Deleniti, et.
+                </p>
+                <form action="" class="formulario">
+                    <select class="formulario__campo">
+                        <option value="" disabled selected> Selecionar tipo de Biblia</option>
+                        <option value="">Pasta Blanda</option>
+                        <option value=""> Pasta Dura </option>
+                        <option value=""> Pasta de Piel </option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1"/>
+                    <input class="formulario__submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer class="footer">
+        <p class="footer__texto"> FrontEnd Store -- Todos los derechos son reservados 2022.</p>
+    </footer>
+
+</body>
+</html>
